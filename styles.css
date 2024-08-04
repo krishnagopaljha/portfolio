@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Fira Code", monospace;
+    cursor: text;
+  }
+  
+  *::selection {
+    background-color: #00ff00;
+    color: #1e1e1e;
+  }
+  
+  body {
+    background-color: #1e1e1e;
+    color: #d3d3d3;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .main-container {
+    height: fit-content;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .message-text {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 20px 0;
+  }
+  
+  .help-text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #00ff00;
+  }
+  
+  .command-output {
+    margin: 15px 0;
+    padding-left: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .input-label {
+    color: #00ff00;
+  }
+  
+  .input-command {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #00ff00;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  .input-text {
+    color: #00ff00;
+  }
+  
+  .command-not-found {
+    font-size: 18px;
+    color: #ff0032;
+  }
+  
+  .data-dt {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-transform: lowercase;
+    color: #00ff00;
+  }
+  
+  .data-dd {
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  
+  .data-li {
+    text-transform: capitalize;
+    list-style-type: square;
+    font-weight: 400;
+  }
+  
+  .about-text {
+    font-weight: 400;
+  }
+  
+  .data-table {
+    border-collapse: collapse;
+    color: #d3d3d3;
+  }
+  
+  .data-name-th {
+    text-align: left;
+    padding-bottom: 20px;
+  }
+  
+  .data-description-td {
+    padding-bottom: 20px;
+    vertical-align: top;
+    padding-left: 20px;
+  }
+  
+  .data-link {
+    text-decoration: none;
+    color: #00ff00;
+    cursor: pointer;
+  }
+
+/* Add this to styles.css */
+.matrix-rain {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 9999;
+  }
+  
+  .matrix-rain canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
